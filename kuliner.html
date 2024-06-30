@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/script.jss" href="script.js">
+</head>
+<body>
+    <title>Kuliner Website</title>
+<style>
+  *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #f66d04;
+  background-color: #ff6811;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #fa790f;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #66f903;
+}
+
+a:hover {
+  color: #000dfefe;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #fa650f;
+  color: #0d0c0c;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #0a0202;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  margin: 40px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #080202;
+}
+
+nav a:hover {
+  color: #ff6c09;
+}
+
+/* Section Styles */
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #170e09;
+  border: 1px solid #000000;
+  box-shadow: 0 0 10px rgba(16, 2, 2, 0.957);
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+.menu,.minuman {
+  margin-top: 20px;
+}
+
+.menu ul,.minuman ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu li,.minuman li {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ff8a04;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu img,.minuman img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.menu p,.minuman p {
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #0e0303;
+  color: #fa8108;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 10px;
+} 
+</style>
+
+<body>
+    <header>
+        <h1>SELAMAT DATANG</h1><img src="logo..jpg" alt="">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#makanan">Makanan</a></li>
+                <li><a href="#minuman">Minuman</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home Section</h2>
+        <P>Nimkati Hidangan Kami</P>
+        <!-- Content for Home Section -->
+    </section>
+    <section id="makanan">
+        <h2>Makanan Section</h2>
+        <div class="menu">
+            <h3>Menu Makanan</h3>
+            <ul>
+                <li>
+                    <img src="nasi goreng.jpg" alt="Nasi Goreng"> 15 k <br>
+                    Nasi goreng
+    
+                    <p>Nasi goreng adalah makanan tradisional kota binjai yang terbuat dari nasi yang digoreng dalam minyak goreng, biasanya ditambahkan dengan bumbu-bumbu tertentu.</p>
+                </li>
+                <li>
+                    <img src="mie ayam.jpg" alt="Mie Ayam">10 k<br>
+                    Mie Ayam
+                    <p>Mie ayam adalah hidangan mi yang disajikan dengan irisan daging ayam dan pangsit, dicampur dengan kuah kaldu ayam.</p>
+                </li>
+                <li>
+                    <img src="sate binjai.jpeg" alt="Sate binjai"> 15 k <br>
+                    Sate Ayam
+                    <p>Sate ayam adalah makanan yang terdiri dari potongan-potongan daging ayam yang ditusuk dengan tusukan bambu kemudian dipanggang.</p>
+                </li>
+                <li>
+                    <img src="ayam penyet.jpg" alt="Ayam Penyet"> 15 k <br>
+                    Ayam penyet 
+                   <p>Ayam penyet merupakan makanan tradisional ayam berlumur sambal </p>
+            </ul>
+        </div>
+    </section>
+    <section id="minuman">
+        <h2>minuman section</h2>
+        <div class="minuman">
+            <h3>Menu Minuman</h3>
+            <ul>
+                <li>
+                    <img src="jus alpukat.jpg" alt="Jus Alpukat">
+                    Jus Alpukat<br>
+                    10k
+                </li>
+                <li>
+                    <img src="es jeruk.jpg" alt="Es jeruk">
+                    Es jeruk<br>
+                    10 k
+                </li>
+                <li>
+                    <img src="es teh.jpg" alt="Es Teh3">
+                    Es teh<br>
+                    5 k
+                </li>
+                <li>
+                  <img src="kopi.jpg" alt="kopi pahit">
+                    Kopi pahit<br>
+                    5 k
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Kulier Kota Binjai 2024</p>
+    </footer>  
+    
+    <script>
+        function showMenu(menuId) {
+            var menuSection = document.getElementById(menuId);
+            if (menuSection.style.display === "none") {
+                menuSection.style.display = "block";
+            } else {
+                menuSection.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
